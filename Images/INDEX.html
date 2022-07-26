@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mohammed Akiff</title>
+    <link rel="icon" type="Image/x-icon" href="http://127.0.0.1:5500/Images/Favicon.ico">       
+</head>
+    <body style="background-color: cadetblue;"><h1 style="color: blue;">facebook</h1>
+    <p>Connect with friends and the world<br>
+     around you on facebook</p>
+<h2 style="color:grey;">Email or phone number</h2>
+<h3 style="color:grey;">Password</h3>
+<h4>Log In</h4>
+<img src="./INDEX_files/luffy.png" alt="img/luffy.png" width="250" height="200">
+<a href="https://www.facebook.com/" target="_blank">Facebook Link</a>
+<table>
+    <tbody><tr>
+        <th>Browser</th>
+        <th>App</th>
+        <th>Game</th>
+
+    </tr>
+    <tr>
+        <td>Safari</td>
+        <td>TikTok</td>
+        <td>BrawlHalla</td>
+    </tr>
+</tbody></table>
+<style>
+    table,th,td {
+    border:1px solid black;
+    border-collapse: collapse;
+    border-style: ridge;
+    border-color: saddlebrown;
+}
+</style>
+<style>
+    th, td {
+        padding-left: 10px;
+        padding-bottom:20px;
+        padding-top:20px;
+        padding-right:10px;
+        color:red;
+    }
+</style>
+<style>
+    h1 {
+        text-align: center;
+        font-size: 70px;
+        font-style: normal;
+        font: ;
+    }
+</style>
+<style>
+    p,h2,h3{
+        color: black;
+        text-align: center;
+        font-size: 25px;
+    }
+</style>
+<style>
+    h4 { 
+        text-align: center;
+        color:white;
+        font-size: 40px;
+        background-color: blue;
+        border: blue;
+        border-radius: 5%;
+        border-collapse: collapse;
+        border-width:29px;
+    }
+</style>
+<style>
+    a {
+        text-align:center;
+    }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="./INDEX_files/laptop.png">
+<area shape="rect" coords="34,44,270,350" href="./INDEX_files/laptop.png">
+<a href="https://www.facebook.com/" target="_blank"></a>
+<style>
+    h2,h3 {
+        background-color: white;
+        border-radius: 20px;
+    }
+</style>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<form action="http://127.0.0.1:5500/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+    <input type="submit" value="Submit"><input type="reset">
+  </form>
+<p>Choose your favourite App</p>
+
+<form>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Facebook</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">TikTok</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">Instagram</label>
+    <input type="reset">
+    <input type="button" onclick="alert(&#39;Hi XD&#39;)" value="Don&#39;t Click Me!">
+  </form>
+  <form>
+      <p>Select your favourite colour</p>
+      <input type="color" id="favcolor" name="favcolor"><br>
+      <input type="submit">
+  </form>
+  <form>
+      <label for="Birthday">Birthday:</label><br>
+      <input type="date" id="Birthday" name="Birthday">
+  </form>
+  <form>
+      <p>Favourite Browser?</p>
+      <input list="Browsers">
+      <datalist id="Browsers">
+      <option value="Internet Explorer">
+      </option><option value="Firefox">
+      </option><option value="Chrome">
+      </option><option value="Safari">
+      </option><option value="Brave">  
+      </option><option value="Opera Browser">
+      </option></datalist>
+      <input type="submit">
+      <input type="reset">
+      <input type="button" onclick="alert(&#39;HI AGAIN&#39;)" value="Click Me😃">                                       
+  </form>
+<!-- Code injec--></body></html>
